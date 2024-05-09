@@ -1,0 +1,8 @@
+name: pipeline-name1
+on: push
+jobs:
+  my-cicd-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Name is h-w
+        run: echo "Hello World! 1008"
